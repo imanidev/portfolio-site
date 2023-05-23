@@ -53,6 +53,25 @@ nav li a:hover {
   color: whitesmoke;
 }
 
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.socials a {
+  color: rgb(55, 225, 85);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.socials ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
 .home-btn {
   display: flex;
   justify-content: center;
@@ -93,14 +112,21 @@ nav li a:hover {
 
 footer {
   display: flex;
-  position: fixed;
   justify-content: center;
-  padding: 5rem;
-  margin: auto;
+  padding: 2rem;
+  position: fixed;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 100px;
-  color: rgb(55, 225, 85);
+  width: 100%;
+  height: 30px;
+}
+
+footer p {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+  padding: 10px;
 }
 
 /* Media queries */
