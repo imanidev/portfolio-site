@@ -9,7 +9,6 @@ import Projects from '../src/pages/Projects';
 import About from '../src/pages/About';
 import Contact from '../src/pages/Contact';
 import Resume from '../src/pages/Resume';
-import TypeWriter from 'typewriter-effect';
 
 function App() {
 
@@ -17,13 +16,6 @@ function App() {
     <div className="App">
       <Header />
       <Navbar />
-      <h1>
-        <TypeWriter className="typewriter"
-          onInit={(typewriter) => {
-            typewriter.typeString('Hi, I\'m Imani').start();
-          }}
-        />
-      </h1>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
