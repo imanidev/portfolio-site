@@ -20,7 +20,7 @@ function App() {
       <h1>
         <TypeWriter className="typewriter"
           onInit={(typewriter) => {
-            typewriter.typeString('Hello, I am a Full Stack Web Developer').start();
+            typewriter.typeString('Hi, I\'m Imani').start();
           }}
         />
       </h1>
