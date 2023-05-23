@@ -1,5 +1,4 @@
 import TypeWriter from 'typewriter-effect';
-
 import React from 'react';
 
 const TypingEffect = () => {
@@ -15,14 +14,14 @@ const TypingEffect = () => {
                             .typeString('I\'m a Full Stack Developer')
                             .pauseFor(2000)
                             .deleteAll()
-                            .typeString('Nice to meet you')
-                            .pauseFor(1000)
-                            .deleteAll()
+                            .typeString('Welcome to my portfolio')
+                            .pauseFor(2000)
                             .start();
                     }}
                     options={{
                         delay: 50,
-                        cursor: '',
+                        cursor: ''
+
                     }}
                 />
             </h1>
