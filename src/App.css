@@ -8,13 +8,14 @@
 html,
 body {
   height: 100%;
-  background-color: rgb(15, 14, 14);
+  background-color: rgb(26, 25, 25);
   font-family: 'chakra petch';
 }
 
 h1 {
   color: rgb(155, 225, 85);
 }
+
 
 nav {
   display: flex;
@@ -33,6 +34,10 @@ nav ul {
 nav li a {
   color: rgb(155, 225, 85);
   text-decoration: none;
+}
+
+nav li a:hover {
+  color: whitesmoke;
 }
 
 footer {
