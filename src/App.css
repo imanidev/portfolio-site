@@ -89,10 +89,31 @@ nav {
 
 }
 
+/* nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+} */
+
 nav ul {
   display: flex;
   list-style: none;
   gap: 2rem;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+nav ul.scrolled {
+  background-color: black;
+height: 100px;
+width: 100%;
 }
 
 nav li a {
