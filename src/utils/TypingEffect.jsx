@@ -20,8 +20,8 @@ const TypingEffect = () => {
                     }}
                     options={{
                         delay: 50,
-                        cursor: ''
-
+                        cursor: '|',
+                        showCursor: false,
                     }}
                 />
             </h1>
