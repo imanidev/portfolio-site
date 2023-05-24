@@ -16,16 +16,15 @@ const Home = () => {
                     <br />
                     <br />
                     From ideation to execution, I prioritize intuitive interfaces and seamless interactions to ensure everyone can easily navigate in the digital world.
+                    </p>
+                    </div>
                     <br />
                     <br />
-                    <button className='home-btn'>
-                        <Link to="/projects">My Projects</Link>
+                    <div className='home-btns-container'>
+                    <button className='project-btn'>
+                        <Link to="/portfolio">Projects</Link>
                     </button>
-                    <button className='about-btn'>
-                        <Link to="/about">About Me</Link>
-                    </button>
-                </p>
-            </div>
+                 </div>
             <Socials />
         </div >
     );
