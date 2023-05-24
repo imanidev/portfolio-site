@@ -20,6 +20,18 @@ p {
   color: white;
 }
 
+.dictionary-container{
+  margin:50px;
+}
+
+.dict-title,
+.pong-title {
+  color: rgb(55, 225, 85);
+  font-size: 30px;
+  font-family: 'chakra petch';
+  font-weight: bold;
+} 
+
 .dict-gif {
   display: flex;
   justify-content: center;
