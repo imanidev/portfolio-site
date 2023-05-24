@@ -135,7 +135,7 @@ nav li a:hover {
 
 .about-btn,
 .home-btn {
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
   width: 120px;
@@ -146,10 +146,11 @@ nav li a:hover {
   background-color: rgb(55, 225, 85);
   color: black;
   cursor: pointer;
-  margin: auto;
+  margin: 20px;
   margin-top: 10px;
   transform: translateX(-50%);
   animation: float 3s ease-in-out infinite;
+  
 }
 
 .home-btn:hover {
