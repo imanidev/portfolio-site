@@ -1,7 +1,8 @@
 import React from 'react';
 import TypingEffect from '../utils/TypingEffect';
 import Socials from '../components/Socials';
-import Projects from './Projects';
+import { Link } from 'react-router-dom';
+
 
 
 const Home = () => {
@@ -18,9 +19,10 @@ const Home = () => {
                     <br />
                     <br />
                     <button className='home-btn'>
-                        <a href='/projects'>
-                            My Projects
-                        </a>
+                        <Link to="/projects">My Projects</Link>
+                    </button>
+                    <button className='about-btn'>
+                        <Link to="/about">About Me</Link>
                     </button>
                 </p>
             </div>
