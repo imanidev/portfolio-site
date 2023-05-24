@@ -1,4 +1,5 @@
 import React from 'react';
+import ShowNavBackground from '/src/utils/showNavBackground';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from '../src/components/Navbar';
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
       <Header />
       <Navbar />
+      <ShowNavBackground />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
@@ -24,7 +26,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
-  
       <Footer />
     </div>
   );
