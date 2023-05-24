@@ -1,5 +1,6 @@
 import React from 'react';
 import TypingEffect from '../utils/TypingEffect';
+import Socials from '../components/Socials';
 
 
 const Home = () => {
@@ -15,13 +16,13 @@ const Home = () => {
                     <br />
                     <br />
                     <button className='home-btn'>
-                        <a href='https://calendly.com/imaniroberts/30min ' target='_blank'>
-                            Let's chat
+                        <a href='/projects'>
+                            My Projects
                         </a>
                     </button>
                 </p>
             </div>
-
+            <Socials />
         </div >
     );
 };

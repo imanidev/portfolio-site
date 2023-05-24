@@ -10,6 +10,7 @@ import About from '../src/pages/About';
 import Contact from '../src/pages/Contact';
 import Resume from '../src/pages/Resume';
 
+
 function App() {
 
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
+  
       <Footer />
     </div>
   );
