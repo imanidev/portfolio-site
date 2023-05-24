@@ -5,7 +5,7 @@ const Projects = () => {
         <div>
             <h2>Projects</h2>
             <div className='dictionary-container'>
-                <img className='dict-gif' src='./src/assets/dict-app.gif' alt='dictionary app' />
+                <img className='dict-gif' src='/assets/dict-app.gif' alt='dictionary app' />
                 <p className='dict-desc'>Technologies: React, Vite, Bootstrap, API</p>
                 <br />
                 <button className='demo-btn'>
@@ -18,7 +18,7 @@ const Projects = () => {
             <br />
             <br />
             <div className='pong-container'>
-                <img className='pong-gif' src='./src/assets/pong-app.gif' alt='pong app' />
+                <img className='pong-gif' src='/assets/pong-app.gif' alt='pong app' />
                 <p className='pong-desc'>Technologies: </p>
                 <br />
                 <button className='demo-btn'>
