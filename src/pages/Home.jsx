@@ -1,12 +1,14 @@
 import React from 'react';
 import TypingEffect from '../utils/TypingEffect';
 import Socials from '../components/Socials';
+import Projects from './Projects';
 
 
 const Home = () => {
     return (
         <div>
             <TypingEffect />
+
             <div className='intro-text'>
                 <p>
                     With a focus on the MERN stack, I combine creativity, empathy, and a healthy dose of caffeine to solve problems.
