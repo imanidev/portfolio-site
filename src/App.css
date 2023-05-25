@@ -1,5 +1,5 @@
 #root {
-  /* max-width: 1280px; */
+  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -11,6 +11,8 @@ body {
   height: 100%;
   background-color: black;
 }
+
+
 
 h2 {
   font-size: 40px;
@@ -89,8 +91,7 @@ h1,
 h2 {
   color: rgb(55, 225, 85);
 }
-
-    .typewriter-h1 {
+typing-effect-home{
   margin:40px;
   font-size: 50px;
 }
@@ -252,20 +253,33 @@ footer {
   padding: 1.5rem;
 }
 
-@media (min-width: 768px) {
-  .h1-container {
+@media (max-width: 768px) {
+  #root {
+    padding: 10rem;
+  }
+
+  .greeting-container {
     display: none;
   }
 
-      .typewriter-h1 {
+nav ul {
+  display: none;
+}
 
+  nav ul.scrolled {
+    display: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+  }
+
+.typing-effect-about, .typing-effect-home {
     font-size: 50px;
   }
 
-  .dict-gif{
+ .dict-gif{
     width: 600px;
-  }
-
+ }
 }
 
 @media (max-width: 600px) {
@@ -273,7 +287,7 @@ footer {
     font-size: 30px;
   }
 
-  .h1-container {
+  .greeting-container {
     display: none;
 
   }
@@ -293,8 +307,8 @@ footer {
   }
 }
 
-@media (max-width: 480px) {
-      .typewriter-h1 {
+@media (max-width: 490px) {
+      .typing-effect-home {
     display: none;
   }
 
@@ -302,7 +316,7 @@ footer {
       display: none;
     }
 
-  .h1-container {
+  .greeting-container {
     display: block;
     font-size: 30px;
   }
@@ -323,14 +337,15 @@ footer {
   }
 }
 
-@media screen and (max-width: 320px) {
-      .typewriter-h1 {
+@media screen and (max-width: 390px) {
+  .typing-effect-about, .typing-effect-home {
     display: none;
   }
 
-  .h1-container {
-    display: block;
-    font-size: 30px;
+
+
+  .greeting-container {
+    display: inline-block;
   }
 
   .intro-container{
@@ -341,12 +356,74 @@ footer {
     display: none;
     justify-content: center;
     text-align: center;
-    margin-right: 0;
-    flex-direction: column;
+    margin: auto;
   }
+
+nav ul.scrolled {
+display: none;
+}
+  nav li a {
+    color: rgb(55, 225, 85);
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+  }
+
+  nav li a:hover {
+    font-style: oblique;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  .chat-btn,
+  .project-btn {
+    display: flex;
+      margin-left: 50px;
+      margin-top: 5px;
+      animation: none;
+  }
+
+    .home-btns-container {
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      margin-left: 80px;
+    }
+
+  .pong-gif,.dict-gif{
+    display:none;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
 
   .home-btns-container {
     display: block;
     text-align: center;
   }
 }
+
+nav ul {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 1024px){
+
+  .typing-effect-home {
+display: none;
+  }
+  } 
+
+nav ul.scrolled {
+    display: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+  }
