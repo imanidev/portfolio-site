@@ -8,15 +8,14 @@ const TypingEffect = () => {
                 <TypeWriter className="typewriter"
                     onInit={(typewriter) => {
                         typewriter
-                            .typeString('Hi again')
+                            .typeString('About me')
                             .pauseFor(2000)
-                            .deleteAll()
+             
                             .start();
                     }}
                     options={{
                         delay: 50,
-                        cursor: '',
-                        showCursor: false,
+                        cursor: ''
                     }}
                 />
             </h1>
