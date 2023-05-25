@@ -97,9 +97,9 @@ h2 {
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content:flex-end;
   align-items: center;
-  /* margin-right: 50px; */
+  margin-right: 50px;
 
 }
 
@@ -118,7 +118,7 @@ nav ul {
 
 nav ul.scrolled {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   background-color: black;
   height: 80px;
   width: 100%;
