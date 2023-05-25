@@ -90,7 +90,7 @@ h2 {
   color: rgb(55, 225, 85);
 }
 
-.typewriter {
+    .typewriter-h1 {
   margin:40px;
   font-size: 50px;
 }
@@ -248,31 +248,43 @@ footer {
 
 /* Media queries */
 
+#root{
+  padding: 1.5rem;
+}
+
 @media (min-width: 768px) {
   .h1-container {
     display: none;
   }
 
-  .typewriter {
-    display: block;
-    font-size: 30px;
+      .typewriter-h1 {
+
+    font-size: 50px;
   }
+
+  .dict-gif{
+    width: 600px;
+  }
+
 }
 
-@media (max-width: 767px) {
-  .typewriter {
+@media (max-width: 600px) {
+      .typewriter-h1 {
     font-size: 30px;
+  }
+
+  .h1-container {
     display: none;
-  }
 
-  .container {
-    text-align: center;
   }
-
   .chat-btn,
   .project-btn {
     margin: 10px 10px auto;
   }
+    .pong-gif,
+    .dict-gif {
+      display: none;
+    }
 
   footer {
     display: flex;
@@ -282,7 +294,7 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .typewriter {
+      .typewriter-h1 {
     display: none;
   }
 
@@ -300,15 +312,19 @@ footer {
     margin-right: 0;
   }
 
+  .pong-gif,.dict-gif{
+    display:none;
+  }
+
   footer {
     display: flex;
     justify-content: center;
-    padding: 0.5rem;
+    padding: 5rem;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .typewriter {
+      .typewriter-h1 {
     display: none;
   }
 

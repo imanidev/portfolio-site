@@ -4,7 +4,7 @@ import React from 'react';
 const TypingEffect = () => {
     return (
         <div>
-            <h1 className='typewriter'>
+            <h1 className='typewriter-h1'>
                 <TypeWriter className="typewriter"
                     onInit={(typewriter) => {
                         typewriter
