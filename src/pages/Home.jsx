@@ -7,8 +7,8 @@ const Home = () => {
     return (
         <div>
             <TypingEffect />
-            <div className='h1-container'>
-                <h1 className='media-h1'>Hi, I'm Imani</h1>
+            <div className='greeting-container'>
+                <h2 className='media-h2'>Hi, I'm Imani</h2>
                 <h2 className='media-h2'>I'm a Full Stack Web Developer</h2>
                 </div>
             <div className='intro-container'>

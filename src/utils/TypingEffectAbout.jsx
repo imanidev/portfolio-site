@@ -4,8 +4,8 @@ import React from 'react';
 const TypingEffect = () => {
     return (
         <div>
-            <h1 className='typewriter'>
-                <TypeWriter className="typewriter"
+            <h1 className='typing-effect-about'>
+                <TypeWriter
                     onInit={(typewriter) => {
                         typewriter
                             .typeString('About me')
