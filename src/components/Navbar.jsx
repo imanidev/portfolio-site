@@ -11,9 +11,7 @@ const Navbar = () => {
                     <li><Link to="/portfolio">Portfolio</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li>
-                        <a target="_blank" href="/assets/Resume/Resume.pdf">
-                        <i>Resume</i> 
-                        </a>
+                        <a target="_blank" href="/assets/Resume/Resume.pdf "class="open-resume">Resume</a>
                     </li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
