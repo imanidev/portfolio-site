@@ -7,7 +7,10 @@ const Home = () => {
     return (
         <div>
             <TypingEffect />
-
+            <div className='h1-container'>
+                <h1 className='media-h1'>Hi, I'm Imani</h1>
+                <h2 className='media-h2'>I'm a Full Stack Web Developer</h2>
+                </div>
             <div className='intro-container'>
                 <p className='intro-text'>
                     With a focus on the MERN stack, I combine creativity, empathy, and a healthy dose of caffeine to solve problems.
