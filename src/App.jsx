@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from '../src/components/Navbar';
-import Header from '../src/components/Header';
-import Footer from '../src/components/Footer';
-import Home from '../src/pages/Home';
-import Projects from '../src/pages/Projects';
-import About from '../src/pages/About';
-import Contact from '../src/pages/Contact';
-import ShowNavBackground from '/src/utils/showNavBackground';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Footer from './components/Footer';
+import ShowNavBackground from '../src/utils/ShowNavBackground'
+
+
 
 function App() {
 
