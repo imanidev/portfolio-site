@@ -97,9 +97,9 @@ h2 {
 
 nav {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 
 }
 
@@ -117,8 +117,10 @@ nav ul {
 
 
 nav ul.scrolled {
+  display: flex;
+  justify-content: center;
   background-color: black;
-  height: 100px;
+  height: 80px;
   width: 100%;
 }
 
@@ -161,7 +163,7 @@ nav li a:hover {
   color: rgb(105, 25, 203);
 }
 
-.about-btn,
+.chat-btn,
 .project-btn {
   font-family: 'chakra petch';
   font-weight: bold;
@@ -183,12 +185,32 @@ nav li a:hover {
 
 }
 
+.chat-btn a {
+  color: black;
+  text-decoration: none;
+}
+
+.chat-btn:hover,
 .project-btn:hover {
   font-style: oblique;
 }
 
-.about-btn:hover {
-  font-style: oblique;
+.resume-btn {
+  font-family: 'chakra petch';
+  font-weight: bold;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(55, 225, 85);
+  color: black;
+  cursor: pointer;
+  margin: 20px;
+  margin-top: 10px;
 
 }
 
@@ -223,12 +245,6 @@ footer {
 
 }
 
-/* footer p {
-
-  font-size: 16px;
-
-  
-} */
 
 /* Media queries */
 @media (max-width: 768px) {
@@ -244,11 +260,15 @@ footer {
     margin-right: 0;
   }
 
-  nav ul {
+  /* nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+  } */
+
+  .pong-gif,.dict-gif{
+    display: none;
   }
 
   footer {
@@ -263,13 +283,13 @@ footer {
     margin-right: 0;;
   }
 
-  nav ul {
+  /* nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 0.5rem;
     margin: auto;
-  }
+  } */
 
   footer {
     display: flex;
