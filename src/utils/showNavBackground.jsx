@@ -23,3 +23,5 @@ const ShowNavBackground = () => {
 };
 
 export default ShowNavBackground;
+
+{/* <a target="_blank" href="resume_assets/img/Imani%20Roberts%20Resume.pdf"><i class="fa fa-download fa-2x resume_download" aria-hidden="true" ></i> */}
