@@ -1,9 +1,9 @@
 import React from 'react';
-
+import ShowNavBackground from '../utils/showNavBackground';
 const Projects = () => {
     return (
         <div>
-       
+       <ShowNavBackground />
 
             <div className='dictionary-container'>
                 <img className='dict-gif' src='/assets/dict-app.gif' alt='dictionary app' />

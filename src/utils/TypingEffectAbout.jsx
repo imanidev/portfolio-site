@@ -3,8 +3,7 @@ import React from 'react';
 
 const TypingEffect = () => {
     return (
-        <div>
-            <h1 className='typing-effect-about'>
+        <div className='typing-effect-about'>
                 <TypeWriter
                     onInit={(typewriter) => {
                         typewriter
@@ -18,7 +17,6 @@ const TypingEffect = () => {
                         cursor: ''
                     }}
                 />
-            </h1>
         </div>
     );
 };

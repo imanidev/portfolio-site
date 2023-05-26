@@ -8,12 +8,12 @@ import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
-import ShowNavBackground from './utils/showNavBackground';
+
 
 function App() {
   return (
     <div className="App">
-<ShowNavBackground />
+
       <Header />
       <Navbar />
       <Routes>

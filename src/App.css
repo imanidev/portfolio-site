@@ -7,7 +7,9 @@ max-width: 1280px;
 
 html,
 body {
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   background-color: black;
 }
 
@@ -114,9 +116,9 @@ nav ul {
   align-items: center;
   margin-right: 50px;
   margin-top: 20px;
+  width: 100%;
+  
 }
-
-
 
 nav ul.scrolled {
   display: flex;
@@ -161,7 +163,7 @@ nav li a:hover {
 }
 
 .bio-container {
-  padding: 3rem;
+  padding: 3.3rem;
   flex-direction: column;
   width: 50%;
   display: flex;
@@ -283,14 +285,45 @@ nav ul {
     margin-right: 0px;
   }
 
-.typing-effect-about, .typing-effect-home {
+.typing-effect-home {
     font-size: 50px;
   }
+
+ 
+  .intro-container {
+    display: none;
+  }
+
+  .greeting-container {
+    display: block;
+    font-size: 30px;
+  }
+
+  .bio-container {
+    width: 100%;
+  }
+
+  .chat-btn,
+  .project-btn {
+    margin: 10px 10px auto;
+  }
+
+  .pong-gif,
+  .dict-gif {
+    width: 300px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+}
 
  .dict-gif{
     width: 600px;
  }
-}
+
 
 @media (max-width: 600px) {
  
@@ -402,5 +435,9 @@ display: none;
 @media screen and (min-width: 1280px) {
 .greeting-container{
   display: none;
+}
+
+nav ul.scrolled {
+display: none;
 }
 }

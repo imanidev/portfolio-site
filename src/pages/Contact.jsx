@@ -1,9 +1,10 @@
 import React from 'react';
-
+// import ShowNavBackground from '../utils/showNavBackground';
 const Contact = () => {
     return (
         <div>
-            <h1>Contact</h1>
+            {/* <ShowNavBackground /> */}
+        
         </div>
     );
 };

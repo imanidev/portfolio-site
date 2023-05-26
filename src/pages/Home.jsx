@@ -1,5 +1,6 @@
 import React from 'react';
 import TypingEffect from '../utils/TypingEffect';
+import ShowNavBackground from '../utils/showNavBackground';
 import Socials from '../components/Socials';
 import { Link } from 'react-router-dom';
 
@@ -7,6 +8,7 @@ const Home = () => {
     return (
         <div>
             <TypingEffect />
+            <ShowNavBackground />
             <div className='greeting-container'>
                 <h2 className='greet-1'>Hi, I'm Imani</h2>
                 <h2 className='greet-2'>I'm a Full Stack Web Developer</h2>

@@ -1,11 +1,13 @@
 
 import React from 'react'
 import TypingEffectAbout from '../utils/TypingEffectAbout'
+import ShowNavBackground from '../utils/showNavBackground';
 
 const About = () => {
   return (
     <div>
       <TypingEffectAbout />
+      <ShowNavBackground />
        <div className='bio-container'>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo aspernatur nam deserunt odio hic rerum suscipit soluta mollitia excepturi non, temporibus tempora quasi nesciunt nisi sint porro eos ipsam enim.
