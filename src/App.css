@@ -160,6 +160,15 @@ nav li a:hover {
   gap: 2rem;
 }
 
+.bio-container {
+  flex-direction: column;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+  margin: auto;
+}
+
 .socials li a:hover {
   color: rgb(105, 25, 203);
 }
