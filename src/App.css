@@ -161,6 +161,7 @@ nav li a:hover {
 }
 
 .bio-container {
+  padding: 3rem;
   flex-direction: column;
   width: 50%;
   display: flex;
