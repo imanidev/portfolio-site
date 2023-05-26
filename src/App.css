@@ -122,7 +122,7 @@ nav ul.scrolled {
   display: flex;
   justify-content: flex-end;
   background-color: black;
-  height: 80px;
+  height: 100px;
   width: 100%;
 }
 
@@ -399,11 +399,8 @@ display: none;
   }
 }
 
-nav ul {
-  display: none;
-}
-
 @media screen and (min-width: 1280px) {
 .greeting-container{
   display: none;
-}}
+}
+}
