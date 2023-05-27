@@ -3,13 +3,12 @@ import React from 'react';
 
 const TypingEffect = () => {
     return (
-        <div className='typing-effect-about'>
+        <h1 className='typing-effect-about'>
                 <TypeWriter
                     onInit={(typewriter) => {
                         typewriter
-                            .typeString('About me')
+                            .typeString('Who am I?')
                             .pauseFor(2000)
-             
                             .start();
                     }}
                     options={{
@@ -17,7 +16,7 @@ const TypingEffect = () => {
                         cursor: ''
                     }}
                 />
-        </div>
+        </h1>
     );
 };
 

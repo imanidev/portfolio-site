@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
@@ -10,12 +11,14 @@ import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
 
+
+
 function App() {
   return (
     <div className="App">
-
       <Header />
       <Navbar />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Projects />} />

@@ -12,7 +12,7 @@ const Projects = () => {
                     <br />
                     Technologies: React  • Vite • Bootstrap • API
                 </p>
-                <img className='dict-gif' src='/assets/dict-app.gif' alt='dictionary app' />
+                <img className='dict-gif' src='/assets/project-gifs/dict-app.gif' alt='dictionary app' />
                 <br />
                 <button className='demo-btn'>
                     <a href='https://the-simple-dictionary.netlify.app/' target='_blank'>Live Demo</a>
@@ -30,7 +30,7 @@ const Projects = () => {
                     <br />
                     Technologies: HTML • CSS  • JavaScript • Canvas API
                 </p>
-                <img className='pong-gif' src='/assets/pong-app.gif' alt='pong app' />
+                <img className='pong-gif' src='/assets/project-gifs/pong-app.gif' alt='pong app' />
                 <br />
                 <button className='demo-btn'>
                     <a href='https://imanidev.github.io/pong_game/' target='_blank'>Live Demo</a>

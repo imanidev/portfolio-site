@@ -13,7 +13,7 @@ const Socials = () => {
                     </a>
                 </li>
                 <li>
-                     <a href="mailto:imaniroberts.dev@gmail.com">Email</a>
+                    <a href="mailto:imaniroberts.dev@gmail.com" target="_blank">Email</a>
                 </li>
             </ul>
         </div>
