@@ -5,11 +5,11 @@ import ShowNavBackground from '../utils/showNavBackground';
 
 const About = () => {
   return (
-    <div>
+    <div className='About'>
       <TypingEffectAbout />
       <ShowNavBackground />
        <div className='bio-container'>
-        <p>
+        <p className='bio-text'>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo aspernatur nam deserunt odio hic rerum suscipit soluta mollitia excepturi non, temporibus tempora quasi nesciunt nisi sint porro eos ipsam enim.
           <br />
           <br />
