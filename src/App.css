@@ -9,12 +9,9 @@ html,
 body {
   display: flex;
   justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  background-color:black;
+  width: 100%;
+  background-color: black;
 }
-
-
 
 h2 {
   font-size: 40px;
@@ -94,17 +91,11 @@ h2 {
   color: rgb(55, 225, 85);
 }
 
-.typing-effect-home  {
+.typing-effect-home {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   margin: 40px;
-  font-size: 50px;
-}
-
-.typing-effect-about {
-  display: flex;
-  justify-content: center;
   font-size: 50px;
 }
 
@@ -169,17 +160,13 @@ nav li a:hover {
 }
 
 .bio-container {
-  display: flex;
-  padding: 2rem;
+  padding: 3.3rem;
+  flex-direction: column;
   width: 50%;
+  display: flex;
   justify-content: center;
-border: solid 1.5px white;
-  margin: auto;
-}
 
-.bio-text{
- display: flex;
- justify-content: right;
+  margin: auto;
 }
 
 .socials li a:hover {
@@ -267,8 +254,6 @@ footer {
   padding: 2rem;
 
 }
-
-
 
 
 /* Media queries */
@@ -453,15 +438,7 @@ footer {
   .greeting-container {
     display: none;
   }
-  nav ul.scrolled {
-    display: none;
-  }
-}
 
-@media screen and (max-width: 1024px) {
-  .greeting-container {
-    display: none;
-  }
   nav ul.scrolled {
     display: none;
   }
