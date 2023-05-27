@@ -58,7 +58,7 @@ font-family: 'chakra petch';
   align-items: center;
   width: 120px;
   height: 40px;
-  font-size: 20px;
+  font-size: fit-content;
   border-radius: 5px;
   border: none;
   background-color: rgb(55, 225, 85);
@@ -303,6 +303,7 @@ nav ul {
   .chat-btn,
   .project-btn {
     margin: 10px 10px auto;
+    font-size: fit-content;
   }
 
   .pong-gif,
@@ -327,6 +328,7 @@ nav ul {
   .chat-btn,
   .project-btn {
     margin: 10px 10px auto;
+    font-size: fit-content;
   }
     .pong-gif,
     .dict-gif {
@@ -404,6 +406,7 @@ display: none;
       margin-left: 50px;
       margin-top: 5px;
       animation: none;
+      font-size: fit-content;
   }
 
     .home-btns-container {
