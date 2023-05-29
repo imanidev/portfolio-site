@@ -10,14 +10,20 @@ const About = () => {
       <ShowNavBackground />
        <div className='bio-container'>
         <p className='bio-text'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo aspernatur nam deserunt odio hic rerum suscipit soluta mollitia excepturi non, temporibus tempora quasi nesciunt nisi sint porro eos ipsam enim.
+        <h3> It started with a "Hello World." </h3>
           <br />
           <br />
-Fugiat aut qui doloribus deserunt possimus numquam? Rem qui cum nesciunt velit nostrum neque temporibus! Nulla reiciendis magnam cum adipisci dicta dolorem excepturi in, recusandae impedit! Autem aut provident porro?
-Eos explicabo, ipsa adipisci error tempora officia, ipsum voluptas quidem itaque harum laudantium pariatur! Necessitatibus, veniam porro consequatur repellat ratione quaerat itaque praesentium in impedit iste maiores. Modi, reiciendis dolore! <br/>
-Nam alias iusto incidunt, tenetur ex, quisquam, nisi soluta nemo dolorem eligendi quis! Quos, totam esse magni ipsam exercitationem porro ipsum impedit earum voluptatem possimus, dolorem facere nostrum a voluptatibus.
-Repudiandae nisi, quos reprehenderit dolores alias veritatis molestias. Eos quos voluptatibus velit accusantium! Unde, laudantium, dolores ipsa veritatis, quo blanditiis delectus laborum corrupti in voluptatibus facere nulla autem sit voluptatem?
-</p>
+          After that I was hooked. I started my coding journey by building simple websites using HTML and CSS. From there I went on to learning Javascript, React, Node, and Express. The thrill of turning ideas into code grew more as time went on. 
+          I love the problem-solving aspect of coding, the creativity it allows, and the tangible impact it can have.
+          <br />
+          <br />
+          Like the universe, my skills are expanding through continous learning and project building. I am currently learning Typescript.
+          <br />
+          <br />
+          When I'm not behind the computer, I'm either behind a good book or tending my garden.  
+          <br />
+          <br />
+          </p>
       </div>
       </div>
   )
