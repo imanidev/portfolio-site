@@ -20,7 +20,7 @@ const About = () => {
           Like the universe, my skills are expanding through continous learning and project building. I am currently learning Typescript.
           <br />
           <br />
-          When I'm not behind the computer, I'm either behind a good book or tending my garden.  
+          When I'm not behind the computer, I'm either behind a good book or tending to my garden.  
           <br />
           <br />
           </p>
