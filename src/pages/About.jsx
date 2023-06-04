@@ -17,7 +17,9 @@ const About = () => {
           I love the problem-solving aspect of coding, the creativity it allows, and the tangible impact it can have.
           <br />
           <br />
-          Like the universe, my skills are expanding through continous learning and project building. I am currently learning Typescript.
+          Like the universe, my skills are expanding through continous learning and project building.
+          I am currently learning <span>TypeScript</span> and <span>Tailwind</span>.
+ 
           <br />
           <br />
           When I'm not behind the computer, I'm either behind a good book or tending to my garden.  

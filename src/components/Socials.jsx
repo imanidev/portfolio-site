@@ -11,10 +11,7 @@ const Socials = () => {
                     <a href='https://www.linkedin.com/in/imaniroberts' target='_blank'>
                         Linkedin
                     </a>
-                </li>
-                <li>
-                    <a href="mailto:imaniroberts.dev@gmail.com" target="_blank">Email</a>
-                </li>
+                </li> 
             </ul>
         </div>
     );
