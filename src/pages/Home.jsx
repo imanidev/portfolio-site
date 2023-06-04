@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer';
 import TypingEffect from '../utils/TypingEffect';
 import ShowNavBackground from '../utils/showNavBackground';
 import Socials from '../components/Socials';
@@ -34,6 +35,7 @@ const Home = () => {
                 </button>
                  </div>
             <Socials />
+            <Footer />
         </div >
     );
 };

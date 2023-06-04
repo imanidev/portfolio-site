@@ -2,6 +2,7 @@
 import React from 'react'
 import TypingEffectAbout from '../utils/TypingEffectAbout'
 import ShowNavBackground from '../utils/showNavBackground';
+import Footer from '../components/Footer';
 
 const About = () => {
   return (
@@ -27,6 +28,7 @@ const About = () => {
           <br />
           </p>
       </div>
+      <Footer />
       </div>
   )
 }

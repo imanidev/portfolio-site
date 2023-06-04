@@ -1,5 +1,6 @@
 import React from 'react';
 import ShowNavBackground from '../utils/showNavBackground';
+import Footer from '../components/Footer';
 const Projects = () => {
     return (
         <div>
@@ -39,6 +40,7 @@ const Projects = () => {
                     <a href='https://github.com/imanidev/pong_game/' target='_blank'>Github</a>
                 </button>
             </div>
+            <Footer />
         </div>
     );
 };
