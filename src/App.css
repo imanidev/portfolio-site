@@ -318,13 +318,12 @@ footer {
 font-size: 15px;
 }
 
-
+span {
+  color: rgb(55, 225, 85);
+  font-weight: bold;
+}
 
 /* Media queries */
-
-/* #root{
-  padding: 1.5rem;
-} */
 
 @media (max-width: 768px) {
   #root {
