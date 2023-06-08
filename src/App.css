@@ -186,9 +186,8 @@ nav li a:hover {
 .project-btn {
   font-family: 'chakra petch';
   font-weight: bold;
-  display: inline-block;
+  display: inline;
   justify-content: center;
-  align-items: center;
   width: 120px;
   height: 40px;
   font-size: 20px;
@@ -199,9 +198,6 @@ nav li a:hover {
   cursor: pointer;
   margin: 20px;
   margin-top: 10px;
-  transform: translateX(-50%);
-  animation: float 3s ease-in-out infinite;
-
 }
 
 .chat-btn a {
@@ -212,25 +208,6 @@ nav li a:hover {
 .chat-btn:hover,
 .project-btn:hover {
   font-style: oblique;
-}
-
-.resume-btn {
-  font-family: 'chakra petch';
-  font-weight: bold;
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-  height: 40px;
-  font-size: 18px;
-  border-radius: 5px;
-  border: none;
-  background-color: rgb(55, 225, 85);
-  color: black;
-  cursor: pointer;
-  margin: 20px;
-  margin-top: 10px;
-
 }
 
 .project-btn a {
@@ -244,33 +221,20 @@ nav li a:hover {
 }
 
 .contact {
-margin-top: 80%;
+  margin-top: 80%;
 }
 
 
 button[type='submit']:hover {
-    background-color: #023e8a;
+  background-color: #023e8a;
 }
 
-@keyframes float {
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-10px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
 
 footer {
   display: flex;
   justify-content: center;
   padding: 2rem;
-font-size: 15px;
+  font-size: 15px;
 }
 
 span {
